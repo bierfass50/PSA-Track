@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hintergrund -->
+  <rect width="1200" height="400" rx="16" fill="url(#bg)"/>
+
+  <!-- Subtiles Tech-Raster -->
+  <g stroke="#334155" stroke-width="1" opacity="0.25">
+    <path d="M 0,100 L 1200,100 M 0,200 L 1200,200 M 0,300 L 1200,300" />
+    <path d="M 200,0 L 200,400 M 400,0 L 400,400 M 600,0 L 600,400 M 800,0 L 800,400 M 1000,0 L 1000,400" />
+  </g>
+
+  <!-- Rechte Seite: Vektor UI Mockup -->
+  <rect x="700" y="70" width="430" height="260" rx="12" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+
+  <!-- UI Window Header -->
+  <rect x="700" y="70" width="430" height="42" rx="12" fill="#0F172A"/>
+  <circle cx="725" cy="91" r="5" fill="#EF4444"/>
+  <circle cx="742" cy="91" r="5" fill="#EAB308"/>
+  <circle cx="759" cy="91" r="5" fill="#22C55E"/>
+  <text x="780" y="95" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">EINSATZMODUS • TAB: TRUPP 1</text>
+
+  <!-- Big Touch Scan Buttons -->
+  <rect x="720" y="130" width="185" height="80" rx="8" fill="#7F1D1D" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="735" y="163" fill="#FCA5A5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="bold">🔴 ALT (Abgabe)</text>
+  <text x="735" y="188" fill="#FECACA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Schwarz / Kontaminiert</text>
+
+  <rect x="925" y="130" width="185" height="80" rx="8" fill="#14532D" stroke="#22C55E" stroke-width="1.5"/>
+  <text x="940" y="163" fill="#86EFAC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="bold">🟢 NEU (Ausgabe)</text>
+  <text x="940" y="188" fill="#DCFCE7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Weiß / Einsatzbereit</text>
+
+  <!-- Live Scan Terminal Line -->
+  <rect x="720" y="230" width="390" height="75" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="735" y="258" fill="#38BDF8" font-family="Consolas, monospace" font-size="12">[14:22:05] J-101 (Einsatzjacke) -> ALT</text>
+  <text x="735" y="282" fill="#4ADE80" font-family="Consolas, monospace" font-size="12">[14:22:38] J-102 (Einsatzjacke) -> NEU</text>
+
+  <!-- Linke Seite: Typografie & Branding -->
+  <text x="70" y="130" fill="#EF4444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" letter-spacing="2">OPEN SOURCE FEUERWEHR SOFTWARE</text>
+
+  <text x="70" y="195" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="900">PSA-Track</text>
+
+  <text x="70" y="235" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="500">Digitales Einsatz- &amp; Hygiene-Management</text>
+  <text x="70" y="262" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400">Schwarz/Weiß-Trennung • Touch-First • FirePlan Schnittstelle</text>
+
+  <!-- Tech Pills -->
+  <rect x="70" y="295" width="85" height="26" rx="13" fill="#334155"/>
+  <text x="112.5" y="312" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Python 3</text>
+
+  <rect x="165" y="295" width="115" height="26" rx="13" fill="#334155"/>
+  <text x="222.5" y="312" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">CustomTkinter</text>
+
+  <rect x="290" y="295" width="80" height="26" rx="13" fill="#334155"/>
+  <text x="330" y="312" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">SQLite</text>
+
+  <rect x="380" y="295" width="75" height="26" rx="13" fill="#334155"/>
+  <text x="417.5" y="312" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">GPL-3.0</text>
+</svg>
