@@ -2,43 +2,39 @@
 PSA-Track ist eine schlanke Windows-Anwendung zur Erfassung und Protokollierung von Persönlicher Schutzausrüstung (PSA) bei Einsätzen und Übungen. Die Software unterstützt die Schwarz/Weiß-Trennung (Einsatzstellenhygiene), um kontaminierte Ausrüstung direkt vor Ort zu dokumentieren und Tauschausrüstung zuzuordnen.
 
 🚀 Schnellstart & Download
-Keine Python-Installation oder Einrichtung erforderlich.
+> Keine Python-Installation oder Einrichtung erforderlich.
 
-Lade die fertige psa_track.exe hier aus dem Repository herunter (oder unter Releases).
-
-Starte die Datei direkt per Doppelklick.
-
-Beim ersten Start wird im selben Ordner automatisch die lokale Datenbank psa_track.db angelegt.
+Lade die fertige psa_track.exe hier aus dem Repository herunter (oder unter Releases). Starte die Datei direkt per Doppelklick. Beim ersten Start wird im selben Ordner automatisch die lokale Datenbank psa_track.db angelegt.
 
 🎯 Kernfunktionen
-Touch-optimierte Oberfläche: Große Schaltflächen und klare Kontraste für die Bedienung auf Tablets, Touchscreens oder Toughbooks (auch mit Handschuhen).
+> Touch-optimierte Oberfläche: Große Schaltflächen und klare Kontraste für die Bedienung auf Tablets, Touchscreens oder Toughbooks (auch mit Handschuhen).
 
-Schneller Scan-Workflow:
+> Schneller Scan-Workflow
 
-Einsatzmodus: Erfassung je Kamerad oder Trupp. Barcode-Scans buchen Ausrüstung direkt als NEU (Ausgabe) oder ALT (Abgabe/Kontaminiert).
+> Einsatzmodus: Erfassung je Kamerad oder Trupp. Barcode-Scans buchen Ausrüstung direkt als NEU (Ausgabe) oder ALT (Abgabe/Kontaminiert).
 
-Automatische Trägerzuordnung: Kontaminierte Kleidung wird aus der Personenliste ausgebucht und auf den Status Kontaminiert gesetzt.
+> Automatische Trägerzuordnung: Kontaminierte Kleidung wird aus der Personenliste ausgebucht und auf den Status Kontaminiert gesetzt.
 
-Wache-Modus: Übersicht über den aktuellen Ausrüstungsbestand und chronologisches Gesamtprotokoll aller Buchungen.
+> Wache-Modus: Übersicht über den aktuellen Ausrüstungsbestand und chronologisches Gesamtprotokoll aller Buchungen.
 
-Fehlertolerant & Sicher:
+> Fehlertolerant & Sicher:
 
-Dialoge zur Bestätigung vor dem Löschen von Datensätzen.
+> Dialoge zur Bestätigung vor dem Löschen von Datensätzen.
 
-Beim Umbenennen von Personen oder Trupps bleibt die historische Datenintegrität in der Datenbank erhalten.
+> Beim Umbenennen von Personen oder Trupps bleibt die historische Datenintegrität in der Datenbank erhalten.
 
 💻 Hinweise für IT-Administratoren
-Architektur: Portable Windows-Anwendung auf Python- und CustomTkinter-Basis mit lokaler SQLite3-Datenbank.
+> Architektur: Portable Windows-Anwendung auf Python- und CustomTkinter-Basis mit lokaler SQLite3-Datenbank.
 
-Keine Cloud / Kein Server: Die Anwendung arbeitet vollständig offline und benötigt keine Server-Infrastruktur oder Datenbank-Dienste.
+> Keine Cloud / Kein Server: Die Anwendung arbeitet vollständig offline und benötigt keine Server-Infrastruktur oder Datenbank-Dienste.
 
-Deployment / Dateisystem:
+> Deployment / Dateisystem:
 
-Die psa_track.exe ist portable und benötigt keine Administratorrechte zur Ausführung.
+> Die psa_track.exe ist portable und benötigt keine Administratorrechte zur Ausführung.
 
-Die Datenbank (psa_track.db) wird zur Laufzeit im selben Verzeichnis wie die .exe geschrieben.
+> Die Datenbank (psa_track.db) wird zur Laufzeit im selben Verzeichnis wie die .exe geschrieben.
 
-Sicherung: Für Backups reicht es aus, die Datei psa_track.db zu sichern oder das gesamte Verzeichnis zu kopieren.
+> Sicherung: Für Backups reicht es aus, die Datei psa_track.db zu sichern oder das gesamte Verzeichnis zu kopieren.
 
 📦 Verwendete Bibliotheken & Danksagung
 CustomTkinter (MIT Lizenz) – Modernes UI-Framework auf Tkinter-Basis von Tom Schimansky.
