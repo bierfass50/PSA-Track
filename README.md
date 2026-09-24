@@ -8,6 +8,17 @@
 
 **PSA-Track** ist eine schlanke, touch-optimierte Windows-Anwendung zur Erfassung und Protokollierung von Persönlicher Schutzausrüstung (PSA) bei Einsätzen und Übungen. Die Software unterstützt die konsequente **Schwarz/Weiß-Trennung** (Einsatzstellenhygiene), um kontaminierte Ausrüstung direkt vor Ort zu dokumentieren und Tauschausrüstung zuzuordnen.
 
+## 📜 Lizenz & Nutzung (Auf einen Blick)
+
+**PSA-Track** ist als **Open-Source-Software** unter der **GNU General Public License v3.0 (GPLv3)** lizenziert.
+
+Für Anwender, Kommandanten und Verwaltungen bedeutet das konkret:
+
+* 🆓 **100% Kostenlos:** Es gibt keine Lizenzgebühren, Abos, Testphasen oder versteckten Kosten.
+* 🚒 **Unbeschränkte Nutzung:** Jede Feuerwehr, Hilfsorganisation (THW, DRK, etc.), Kommune oder Firma darf die Software auf beliebig vielen Geräten installieren und dauerhaft nutzen.
+* 🔓 **Offener Quellcode:** Jeder darf den Code einsehen, anpassen und verbessern. Einzige Regel: Wer Anpassungen veröffentlicht, muss auch diesen Code wieder unter der GPLv3 frei zur Verfügung stellen.
+* 🛡️ **Haftungsausschluss:** Die Bereitstellung erfolgt wie besehen (*"AS IS"*) auf eigener Verantwortung. Es wird keine Gewährleistung oder kommerzielle Haftung übernommen.
+
 ---
 
 ## 🚀 Schnellstart & Download
