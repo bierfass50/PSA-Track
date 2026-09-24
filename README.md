@@ -70,12 +70,23 @@ Dieses Projekt ist unter der **GNU General Public License v3.0 (GPLv3)** lizenzi
 
 ## 🛠️ Für Entwickler: Aus Quellcode ausführen & Bauen
 
-<details>
-<summary><b>Anleitung für Entwickler aufklappen</b></summary>
-
-<br>
+*(Nur relevant, wenn du Änderungen am Quellcode vornehmen möchtest)*
 
 ### 1. Voraussetzungen
 Python 3.8+ installieren und Abhängigkeiten laden:
 ```bash
 pip install customtkinter
+```
+
+### 2. Anwendung über Quellcode starten
+```bash
+python psa_track.py
+```
+
+### 3. Eigene EXE-Datei erstellen (PyInstaller)
+Falls du den Code angepasst hast und eine neue `.exe` erstellen möchtest:
+```bash
+python -m pip install pyinstaller
+python -m PyInstaller --noconsole --onefile --collect-all customtkinter psa_track.py
+```
+Die fertige Executable wird im Ordner `dist/` abgelegt.
